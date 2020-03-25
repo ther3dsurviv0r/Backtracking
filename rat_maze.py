@@ -1,3 +1,4 @@
+#Author: Srijan Singh (ther3dsurvi0r)
 rat_maze = [
     [1, 1, 1, 0, 0, 0, 0, 0, 0],
     [0, 1, 0, 0, 0, 0, 0, 0, 0],
@@ -9,7 +10,7 @@ rat_maze = [
     [1, 1, 1, 0, 1, 0, 1, 1, 0],
     [1, 1, 1, 1, 1, 0, 0, 1, 1]
 ]
-
+#rat_maze matrix above can be scalled to any dimmension.
 
 def print_maze(maze):
     for i in range(len(maze)):
